@@ -11,7 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SneakerMed"
-        tools:targetApi="31">
+        tools:targetApi="34">
+        <activity
+            android:name=".registro"
+            android:exported="false" />
+        <activity
+            android:name=".InicioSesionActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -24,3 +30,4 @@
     </application>
 
 </manifest>
+
