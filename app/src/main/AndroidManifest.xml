@@ -13,6 +13,9 @@
         android:theme="@style/Theme.SneakerMed"
         tools:targetApi="34">
         <activity
+            android:name="co.Home"
+            android:exported="false" />
+        <activity
             android:name=".registro"
             android:exported="false" />
         <activity
@@ -30,4 +33,3 @@
     </application>
 
 </manifest>
-
